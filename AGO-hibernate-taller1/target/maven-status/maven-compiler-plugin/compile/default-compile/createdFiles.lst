@@ -1,0 +1,7 @@
+com\nttdata\sevilla\persistence\ClientDaoImpl.class
+com\nttdata\sevilla\services\ClientServiceImpl.class
+com\nttdata\sevilla\services\ClientServiceI.class
+com\nttdata\sevilla\persistence\ClientDaoI.class
+com\nttdata\sevilla\clientes\ClientesMain.class
+com\nttdata\sevilla\persistence\Client.class
+com\nttdata\sevilla\clientes\ClientsSessionUtil.class
