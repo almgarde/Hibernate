@@ -101,7 +101,7 @@ public class ContractServiceImpl implements ContractServiceI {
 		// Condición de verificación
 		if (removeContract != null && removeContract.getIdContract() != null) {
 			// Borrado del contrato
-			contractDao.update(removeContract);
+			contractDao.delete(removeContract);
 			LOGGER.trace("Se ha borrado el cliente" + removeContract.getIdContract());
 		} else {
 			LOGGER.error("Se ha introducido un cliente nulo o el cliente a borrar no existe");
