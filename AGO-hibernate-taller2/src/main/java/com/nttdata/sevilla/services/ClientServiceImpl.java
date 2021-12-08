@@ -99,7 +99,7 @@ public class ClientServiceImpl implements ClientServiceI {
 		// Condición de verificación
 		if (removeClient != null && removeClient.getIdClient() != null) {
 			// Borrado del cliente
-			clientDao.update(removeClient);
+			clientDao.delete(removeClient);
 			LOGGER.trace("Se ha borrado el cliente" + removeClient.getIdClient());
 		} else {
 			LOGGER.error("Se ha introducido un cliente nulo o el cliente a borrar no existe");
